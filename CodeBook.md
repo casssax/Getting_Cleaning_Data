@@ -170,7 +170,10 @@ The features column contains the different features for which std() and mean() a
   frequencyBodyGyroscopeMagnitude.mean  
   frequencyBodyGyroscopeJerkMagnitude.mean  
   
-  
+#####mean
+The average (mean) of each variable for each subject and activity.  
+(all values in the original dataset were normalized so there is no unit description)
+
 
 The **run_analysis.R** script creates a tidy dataset in the long/narrow form for this data similar to Table 3. and Table 5. in Hadley Wickham's 'Tidy Data' paper in the [Journal of Statistical Software.](http://www.jstatsoft.org/v59/i10/paper)  
 
