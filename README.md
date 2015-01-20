@@ -28,7 +28,9 @@ and can be read into R using the command:
 
 ```R
 data <- read.table(file_path, header = TRUE)
+data$subject <- as.factor(data$subject)
 ```
+(The 'subject' column is a factor when the tidyUCI is created from the script, but must be converted to a factor when reading in as a text file)
 
 Purpose
 ---
